@@ -61,7 +61,7 @@ function UpdateFoundCatText(){
             height : 1.2,
             width : 2
         });
-        entityEl.setAttribute('material', 'src', "/images/ad.png");
+        entityEl.setAttribute('material', 'src', "./images/ad.png");
         entityEl.setAttribute('position', {x:0, y:0, z:-1});
         entityEl.addEventListener('click',function click(){
             console.log('click');
