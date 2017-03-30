@@ -61,28 +61,11 @@ function UpdateFoundCatText(){
             height : 1.2,
             width : 2
         });
-        entityEl.setAttribute('material', 'src', "http://i.imgur.com/fHyEMsl.jpg");
+        entityEl.setAttribute('material', 'src', "ad.png");
         entityEl.setAttribute('position', {x:0, y:0, z:-1});
         entityEl.addEventListener('click',function click(){
             console.log('click');
-            window.open('http://www.naver.com ', 'newWindow');
+            window.open('http://www.neko.co.kr/', 'newWindow');
         });
-        /*
-        var entityEl = document.createElement('a-plane');
-        var camera = document.getElementById('camera');
-        camera.appendChild(entityEl);
-        entityEl.setAttribute('id', 'popup');
-        entityEl.setAttribute('geometry', {
-            primitive : 'plane',
-            height : 1.2,
-            width : 2
-        });
-        entityEl.setAttribute('html-material', "url:popup.html;width:200;height:200");
-        entityEl.setAttribute('position', {x:0, y:0, z:-1});
-        entityEl.addEventListener('click',function click(){
-            console.log('click');
-            window.open('http://www.naver.com ', 'newWindow');
-        });
-        */
     }
 }
